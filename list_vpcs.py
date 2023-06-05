@@ -12,3 +12,4 @@ for vpc in response["Vpcs"]:
         for tag in vpc["Tags"]:
             if "Name" == tag['Key']:
                 print(tag["Value"])
+                

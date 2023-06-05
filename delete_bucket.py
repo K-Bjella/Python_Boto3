@@ -28,10 +28,10 @@ def empty_bucket(client, bucket):
             
             
 s3 = boto3.client('s3')
-
+ 
 bucket = "kbjella-boto3-06022023"
 
-empty_bucket(s3, bucket)
+empty_bucket(s3, bucket)   
 
 response = s3.delete_bucket(
     Bucket=bucket
