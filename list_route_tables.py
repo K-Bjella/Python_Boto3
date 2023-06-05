@@ -14,3 +14,4 @@ for routeTable in response["RouteTables"]:
             
     for route in routeTable["Routes"]:
         print(route["DestinationCidrBlock"], route["GatewayId"])
+        
